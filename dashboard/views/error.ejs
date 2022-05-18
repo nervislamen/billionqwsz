@@ -1,0 +1,41 @@
+<%- include('./includes/head.ejs', {bot, user}) %>
+<%
+
+var url = new URL(`https://www.feixbot.cf/error?code=${req.query.code}&message=${req.query.message}`);
+var params = new URLSearchParams(url.search);
+%>
+<br><br>
+<div class="lastytext text-center"><font class="lastytext" color="white" position="fixed"  size="30px">SAYFA BULUNAMADI.<br><br>YA DA HİÇ VAROLMADI ?<br><br>SİMGEYE BASARAK ANASAYFAYA DÖNEBİLİRSİNİZ.</font></div>
+<body bgcolor="black">
+<center>
+    <br><br>
+<section class="page_404">
+	<div class="container">
+		<div class="row">	
+		<div class="col-sm-12 ">
+		<div class="col-sm-10 col-sm-offset-1  text-center">
+      <a href="/"><h1><i class="mek wiar animate lastytext fad fa-alien-monster fa-5x"></i></h1></a>
+		</div>
+		<div class="contant_box_404">
+		<h3 class="h2 has-text-white">
+      <br><br>
+		</h3>		
+		<!--<a href="/" class="buton2 btn btn-discord"><i class="fad fa-home"></i> Ana Sayfaya Geri Dön</a>
+      <br><br><br> 
+		<a href="/join" class="buton2 btn btn-discord"><i class="fab fa-discord"></i> Sunucumuza Katıl</a> -->
+	</div>
+		</div>
+		</div>
+		</div>
+  </div>
+</section>
+</center>
+<br><br style.="margin-top: 5px;">
+
+<center>
+<% if(params.get('code') == "200") {%>
+    <p class="has-text-white">Giriş Yapmamış Görünüyorsun ? <a class="btn btn-discord" href="/login">Giriş Yap</a></p>
+<% } %>
+</center>
+<br><br><br><br><br><br><br><br><br><br><br>
+<%- include('./includes/foot.ejs') %>

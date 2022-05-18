@@ -1,0 +1,72 @@
+/* FONT'S */
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap'); /* 'Hachi Maru Pop', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap'); /* 'Permanent Marker', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap'); /* 'Fredoka One', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@200&display=swap'); /* 'Spartan', sans-serif; */
+
+body{
+    background-color: black;
+    height: 100%;
+    margin: 0;
+}
+
+
+#loading{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    z-index: 999;
+}
+#loading > #center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+#loading > #center > #codemarefi h1{
+    font-family: 'Spartan', sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: #333;
+    text-align: center;
+    line-height: 1;
+}
+
+
+#head img{
+    border-radius: 0px;
+    resize: both;
+    overflow: auto;
+    border: 0px solid #dedede;
+    padding:10px;
+    width: 800px;
+    height: 600px;
+    position: absolute;
+
+        left: 13%;
+
+        top: 35%;
+
+        margin-left: -40px;
+
+        margin-top: -50px;
+}
+
+.orta {
+  text-align: center;
+  position: static;
+}
+
+.feixgiris {
+    width: 600px;
+    height: 300px;
+    padding: 10px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-left: -320px;
+    margin-top: -150px;
+}

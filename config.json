@@ -1,0 +1,22 @@
+{
+  "bot": {
+    "prefix": "f!",
+    "id": "967400109795061823",
+    "secret": "naLOUKkaP0jkALInVKVakg98VlMm5zuF",
+    "token": "OTY3NDAwMTA5Nzk1MDYxODIz.GAN-A4.LDLurHR5MRVo3RrcsgyrSBaHjKouPT-9o2dv-M"
+  },
+  "dashboard": {
+    "port": 3000,
+    "url": "https://feixbot.tk/",
+    "callback": "https://www.feixbot.tk/callback",
+    "discord_server_ID": "972774795886329866",
+    "owners": ["859321551820029972"],
+    "sponsorce": ["665871218884476938"],
+    "arc": {
+      "enabled": "false",
+      "code": ""
+    }
+  },
+  "mongodb": "mongodb+srv://feixlamen:anan3737@cluster0.0ekb9.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  "discord": "https://discord.gg/yFXwsCxDDX"
+}

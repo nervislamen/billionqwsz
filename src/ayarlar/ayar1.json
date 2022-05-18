@@ -1,0 +1,5 @@
+{
+  "botnick":"FEIX TRUST",
+  "prefix":"f!",
+  "mongoUrl":"mongodb+srv://lasty31:aliefe3737s@cluster0.zujiq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+}
